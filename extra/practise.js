@@ -174,7 +174,10 @@ console.log( secondResult);
 
 
 const myName = 'imran';
+const secondName = 'Rinku';
+
 console.log(myName);
+console.log(secondName);
 
 
 
