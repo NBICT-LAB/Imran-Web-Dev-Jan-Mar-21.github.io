@@ -170,7 +170,7 @@ const secondResult = `I am ${firstName} ${lastName},
 
 console.log( firstResult);
 console.log( secondResult);
-*/
+
 
 
 const myName = 'imran';
@@ -180,7 +180,75 @@ console.log(myName);
 console.log(secondName);
 
 
+//lecture 30
 
+const country = 'Bangladesh';
+const continent = 'Asia';
+let population = 160;
+
+console.log(country,continent,population);
+
+
+const isIsland = true;
+const  language = 'Bangla';
+
+console.log(`type of 'country'
+is ${typeof(country)}.`);
+
+console.log(`type of 'country'
+is ${typeof(population)}.`);
+
+console.log(`type of 'country'
+is ${typeof(continent)}.`);
+
+console.log(`type of 'country'
+is ${typeof(isIsland)}.`);
+
+console.log(`type of 'country'
+is ${typeof(language)}.`);
+
+let firstHalf = population / 2;
+let secondHalf = population - firstHalf;
+
+console.log(`Each half will contain ${secondHalf} million people.`);
+
+let newPop = population + 1;
+console.log(`If we add 1 to ${population} then we will get ${newPop}.`);
+
+let finPop = 150;//in million
+let condition1 = population > finPop;
+if(condition1){
+  console.log(`Our population is greater than Finland's Population`);
+} else{
+  console.log(`Our population is less than Finland's Population`);
+};
+
+let avargePop = 33;
+let condition2 = avargePop > population;
+
+if(condition2){
+  console.log(`our popultion is less than avargepop`);
+}else{
+  console.log(`our population is greater than avargepop`);
+};
+
+let description = (`${country} is in ${continent}, and its ${population} million people speak ${language}`);
+
+console.log(description);
+
+//homework taking desition if else statement;*/
+
+const age = 17;
+let year ;
+
+if(age >= 18){
+  console.log(`Sara is eligible for the license.🚗`)
+}else{
+  year = 18 - age;
+  console.log(`Sara is not eligible for license.`)
+}
+
+console.log(`She have to wait another ${year}.`)
 
 
 
