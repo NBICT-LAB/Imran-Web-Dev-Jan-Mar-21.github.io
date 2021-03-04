@@ -236,7 +236,7 @@ let description = (`${country} is in ${continent}, and its ${population} million
 
 console.log(description);
 
-//homework taking desition if else statement;*/
+//homework taking desition if else statement;
 
 const age = 17;
 let year ;
@@ -248,7 +248,55 @@ if(age >= 18){
   console.log(`Sara is not eligible for license.`)
 }
 
-console.log(`She have to wait another ${year}.`)
+console.log(`She have to wait another ${year}.`);
+
+*/
+
+
+//task 1 test
+
+const markMass = 78;
+const markHeight = 1.69;
+const markBmi = markMass / (markHeight * markHeight);
+
+const johnMas = 92;
+const johnHeight = 1.95;
+const johnBmi = johnMas / (johnHeight * johnHeight);
+
+
+console.log(markBmi);
+console.log(johnBmi);
+
+
+if( markBmi > johnBmi){
+  console.log(`Mark BMI is heigher than john`)
+}else{
+  console.log(`john BMI is heigher than mark`)
+}
+
+
+console.log(`Mark BMI ${markBmi} is heigher than John BMI ${johnBmi}`);
+
+/*
+//task two
+
+const markMass = 95;
+const markHeight = 1.88;
+const markBmi = markMass / (markHeight * markHeight);
+
+const johnMas = 85;
+const johnHeight = 1.76;
+const johnBmi = johnMas / (johnHeight * johnHeight);
+const markHigherBMI = markBmi > johnBmi;
+
+console.log(markBmi);
+console.log(johnBmi);
+console.log(markHigherBMI);*/
+
+
+
+
+
 
 
 
